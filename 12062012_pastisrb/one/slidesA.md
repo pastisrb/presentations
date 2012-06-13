@@ -12,13 +12,13 @@
 <!SLIDE transition=scrollUp>
 
 # ActiveAdmin 
-# qu'est-ce que c'est ?
+# Qu'est-ce que c'est ?
 
 <!SLIDE bullets transition=scrollUp>
 
-* Un framework pour créé des admins
+* Un framework pour créer des admins
 * Un DSL pour construire votre interface
-* Une solution pour mettre en place un back office rapidement
+* Une solution pour mettre en place un back-office rapidement
 
 <!SLIDE transition=scrollUp>
 
@@ -28,7 +28,8 @@
 
 * On ajoute la gem au Gemfile
 * On lance l'installation via le générateur : __rails g active_admin:install__
-* On exécute les migrations et c'est prêt ! 
+* On exécute les migrations
+* C'est prêt ! 
 
 <!SLIDE transition=scrollUp>
 
@@ -118,7 +119,7 @@ __app/admin/admin_users.rb__
    
 <!SLIDE transition=scrollUp>
 
-# Et si cela ne suffit pas ?
+# Et si cela ne suffit pas
 
 <!SLIDE transition=scrollUp>
 
@@ -142,11 +143,11 @@ __config/initializers/active_admin.rb__
                   simple_format(comment.body)
                 end
                 div :style => "clear:both;"
-              # etc…
+              # etc.
               
 <!SLIDE bullets transition=scrollUp>
 
-# La suite sa se passe sur
+# La suite ça se passe sur
 * [activeadmin.info](http://activeadmin.info/)
 
 <!SLIDE bullets transition=scrollUp>
