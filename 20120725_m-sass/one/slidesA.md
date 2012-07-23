@@ -51,13 +51,15 @@
 
 (Mettre un exemple de ul li, un menu truc)
 
-````html
-  <div class="gluk"></div>
-````
-
-````css
-  div { color: red; }
-````
+    @@@html
+    
+    <div class="gluk"></div>
+    
+c'est con mais il faut un truc au milieu ou mettre dans un autre slide
+    
+    @@@css
+    
+    div { color: red; }
 
 
 <!SLIDE bullets transition=scrollUp>
