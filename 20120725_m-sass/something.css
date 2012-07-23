@@ -1,0 +1,28 @@
+/* customr css and js files included at the top level of your presentation
+ * will be included in your presentation */
+
+body {
+	font-family: Rockwell;
+	color: #555;
+}
+#preso, .slide {
+	width: 1440px;
+	height: 900px;
+}
+h1 {
+	font-size: 6em;
+	color: #333;
+}
+.bullets > ul {
+	font-size: 2.5em;
+}
+.content > ul > li {
+	margin-left: 0;
+}
+.full-page > p {
+	margin: 0;
+}
+a {
+	color: #6db5af;
+	text-decoration: none;
+}
