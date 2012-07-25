@@ -26,3 +26,7 @@ a {
 	color: #6db5af;
 	text-decoration: none;
 }
+pre {
+  font-size: 250% !important;
+  margin: 1em 250px;
+}
