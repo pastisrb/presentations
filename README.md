@@ -12,5 +12,6 @@ showoff serve
 
 ## Online version
 
-[Introduction ‡ Sass (FR)](http://maylis-sass.herokuapp.com)
-[Introduction ‡ Compass (FR)](http://maylis-compass.herokuapp.com)
+[Introduction à Sass (FR)](http://maylis-sass.herokuapp.com)
+
+[Introduction à Compass (FR)](http://maylis-compass.herokuapp.com)
