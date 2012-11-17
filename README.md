@@ -4,7 +4,7 @@
 
 ## Usage
 
-Move in __ddmmyyyy_title__ then do :
+Move in __yyyymmdd_title__ then do :
 
 ```
 showoff serve
@@ -12,4 +12,5 @@ showoff serve
 
 ## Online version
 
-[Introduction � Sass (FR)](http://maylis-sass.herokuapp.com)
+[Introduction ‡ Sass (FR)](http://maylis-sass.herokuapp.com)
+[Introduction ‡ Compass (FR)](http://maylis-compass.herokuapp.com)
