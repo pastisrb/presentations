@@ -7,30 +7,30 @@
 <!SLIDE bullets transition=turnUp>
 
 # David Authier
-* Développeur, monsieur esclave  
+* Développeur, esclave de designer
 
 <!SLIDE bullets transition=turnUp>
 
-![capucine](capucine.jpg)
+![capucine](capucine.png)
 
-# 2 en 1 
+# Capucine, c'est quoi ? 
 
 <!SLIDE bullets transition=turnUp>
 
 # Compass 
-* Framework CSS
-* [Et plein d'autre choses](http://maylis-compass.herokuapp.com/#1)
+* Framework CSS pour Sass
+* [Et plein d'autre choses](http://maylis-compass.herokuapp.com)
 
 <!SLIDE bullets transition=turnUp>
 
 # CoffeeScript
-* Un petit langage qui compile en javascript
+* Un petit langage qui compile en JavaScript
 
 <!SLIDE bullets transition=turnUp>
 
-# Où et pourquoi utiliser Capucine
-* Tout vos projets web
-* Tant que vous avez besoin de CSS et/ou de JS
+# Pourquoi utiliser Capucine
+* Dans tous vos projets Web !
+* Tant que vous avez besoin de CSS et / ou JS
 
 <!SLIDE bullets transition=turnUp>
 
@@ -71,12 +71,12 @@
     use_compass: true
     use_coffeescript: true
 
-    # ---------------[ COMPASS ]------------------------
+    # -----------------[ COMPASS ]------------------
     compass:
       sass_dir: sass
       css_dir: public/css_generated
     
-    # ---------------[ COFFEESCRIPT ]--------------------------
+    # ---------------[ COFFEESCRIPT ]---------------
     # coffeescript_bare: false
     coffeescript_files_dir: coffeescript
     coffeescript_output_dir: public/js_generated
@@ -84,13 +84,14 @@
 <!SLIDE bullets transition=turnUp>
 
 # Conclusion
-* Voilà de quoi faire pour vos prochains projets
-* Et voilà une nouvelle idée de présentation pour la prochaine fois
+* Avec Capucine
+* commencez la rubyfication
+* de votre environnement de travail !
 
 <!SLIDE bullets transition=turnUp>
 
 # Ressources
-* Github
+* Capucine sur github
 * [github.com/damln/Capucine](https://github.com/damln/Capucine)
 
 <!SLIDE bullets transition=turnUp>
