@@ -12,6 +12,8 @@ showoff serve
 
 ## Online version
 
+[ActiveAdmin (FR)](http://david-activeadmin.herokuapp.com)
+
 [Introduction à Sass (FR)](http://maylis-sass.herokuapp.com)
 
 [Introduction à Compass (FR)](http://maylis-compass.herokuapp.com)
