@@ -191,12 +191,32 @@
 
 <!SLIDE bullets transition=turnUp>
 
-* is | ==> | ===
-* isnt | ==> | !==
-* not | ==> | !
-* or | ==> | ||
-* true yes on | ==> | true
-* false no off | ==> | false
+<table>
+  <tr>
+    <td>is</td>
+    <td>===</td>
+  </tr>
+  <tr>
+    <td>isnt</td>
+    <td>!==</td>
+  </tr>
+  <tr>
+    <td>not</td>
+    <td>!</td>
+  </tr>
+  <tr>
+    <td>or</td>
+    <td>||</td>
+  </tr>
+  <tr>
+    <td>true yes on</td>
+    <td>true</td>
+  </tr> 
+  <tr>
+    <td>false no off</td>
+    <td>false</td>
+  </tr>
+</table>
 
 <!SLIDE bullets transition=turnUp>
 
