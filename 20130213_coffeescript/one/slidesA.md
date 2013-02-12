@@ -1,90 +1,99 @@
 <!SLIDE bullets>
  
-# CoffeeScript
+# CoffeeScript 'em all!
 * [pastis.rb](http://pastisrb.org)
 * L'Équitable Café, Marseille, le 13 février 2013
 
 <!SLIDE bullets transition=turnUp>
 
 # David Authier
-* Développeur
+* Apprenti dresseur spé développement
+
+![sacha01](sacha01.png)
 
 <!SLIDE bullets transition=turnUp>
+
+# Pourquoi utiliser
 
 ![coffeescript](coffeescript.png)
 
-<!SLIDE bullets transition=turnUp>
-
-# Pourquoi utiliser CoffeeScript
-* écrire moins pour en avoir plus
-* lisibilité
-* maintenabilité
+* Écrire moins pour en avoir plus
+* Lisibilité
+* Maintenabilité
 
 <!SLIDE bullets transition=turnUp>
 
 # Plus de déclaration de variable
 
+![catch-em-all](catch-em-all.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     var message;
-    message = "Catch them all !";
+    message = "Catch them all!";
     alert(message);
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
-    message = "Catch them all !"
+    message = "Catch them all!"
     alert message
 
 <!SLIDE bullets transition=turnUp>
 
 # Les fonctions
 
+![chen01](chen01.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     var catch_pokemon = function(){
-      return confirm("Ready for catching ?");
+      return confirm("Ready for catching?");
     }
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     catch_pokemon = ->
-      confirm "Ready for catching ?"
+      confirm "Ready for catching?"
 
 <!SLIDE bullets transition=turnUp>
 
 # Paramètres des fonctions
 
+![sacha02](sacha02.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     var catch_pokemon;
     catch_pokemon = function(name) {
-      return confirm("Ready for catching " + name + " ?");
+      return confirm("Ready for catching " + name + "?");
     };
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     catch_pokemon = (name) ->
-      confirm "Ready for catching #{name} ?"
+      confirm "Ready for catching #{name}?"
 
 <!SLIDE bullets transition=turnUp>
 
 # Appels de fonctions
 
+![rattata](rattata.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     catch_pokemon = ->
@@ -103,41 +112,46 @@ __COFFEE__
 
 # jQuery vers CoffeeScript
 
+![pokeball](pokeball.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     function catch_pokemon(event){
-      event.preventDefault();
-      $("#fight-screen .pokemon").replaceWith("<img src= 'img/items/pokeball.gif'>");
-      $(this).remove();
+    	event.preventDefault();
+    	$("#fight-screen .pokemon")
+    	.replaceWith("<img src='img/pokeball.gif' />");
+    	$(this).remove();
     }
 
     $("#inventory .pokeball .use").click(catch_pokemon);
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
-    catch_pokemon = (event) ->
-      event.preventDefault()
-      $("#fight-screen .pokemon").replaceWith "<img src= 'img/items/pokeball.gif'>"
-      $(@).remove()
-      
+    catch_pokemon = (event) ->    
+    	event.preventDefault
+    ()
+    $("#fightscreeen .pokemon")
+    .replaceWith "<img src='img/pokeball.gif' />"
+    $(@).remove()
+    
     $("#inventory .pokeball .use").click catch_pokemon
 
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     $("#pokedex .pokemon .icon").click(function (event){
       event.preventDefault();
     });
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     $("#pokedex .pokemon .icon").click (event) ->
@@ -147,30 +161,34 @@ __COFFEE__
 
 # Les conditions
 
+![pierre](pierre.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     if (age == 10){
-      alert("You can be a Pokemon trainer !");
+      alert("You can be a Pokemon trainer!");
     }
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     if age == 10
-      alert "You can be a Pokemon trainer !"
+      alert "You can be a Pokemon trainer!"
       
-    alert "You can be a Pokemon trainer !"  if age == 10
+    alert "You can be a Pokemon trainer!" if age == 10
 
-    if age == 10 then alert "You can be a Pokemon trainer !"
+    if age == 10 then alert "You can be a Pokemon trainer!"
 
 <!SLIDE bullets transition=turnUp>
 
 # Les opérateurs
+
+![mewtwo](mewtwo.png)
 
 <!SLIDE bullets transition=turnUp>
 
@@ -183,10 +201,10 @@ __COFFEE__
 
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
-    if (all_the_pokemon() && have_meet_chen() === true) {
+    if (all_the_pokemon() && have_met_chen() === true) {
       you_finish_pokemon();
     }
 
@@ -196,65 +214,72 @@ __JS__
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
-    if all_the_pokemon() and have_meet_chen() is on then you_finish_pokemon()
+    if all_the_pokemon() and have_met_chen() is on then         	you_finish_pokemon()
 
     start_game() if not work_to_do()
     #=> start_game() unless work_to_do()
 
 <!SLIDE bullets transition=turnUp>
 
-# Chainer les comparaisons
+# Chaîner les comparaisons
+
+![chen02](chen02.png)
 
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     if (100 < pokemon_count && pokemon_count < 130) {
-      alert('Not so bad dummy !');
+      alert('Not so bad dummy!');
     }
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     if 100 < pokemon_count < 130
-      alert 'Not so bad dummy !'
+      alert 'Not so bad dummy!'
 
 <!SLIDE bullets transition=turnUp>
 
 # Opérateur existentiel
 
+![pikachu](pikachu.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
-    if (typeof poke_world !== 'undefined' && poke_world !== null){
+    if (typeof poke_world !== 'undefined' && poke_world 
+    !== null){
       alert("They exist!");
     }
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     alert "They exist!" if poke_world?
 
 <!SLIDE bullets transition=turnUp>
 
-# Opérateur existentiel sur les fonctions
+# Opérateur existentiel <br> sur les fonctions
+
+![gameboy](gameboy.png)
 
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     if (typeof gameboy.start === "function") {
       gameboy.start();
     }
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     gameboy.start?()
@@ -263,14 +288,16 @@ __COFFEE__
 
 # Plages
 
+![pokeballs](pokeballs.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     var range = [0, 1, 2, 3, 4, 5];
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     range = [0..5]
@@ -279,15 +306,17 @@ __COFFEE__
 
 # Tableaux
 
+![bulbizarre](bulbizarre.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
-    pokemons = ['Bulbizare', 'Dracaufeu', 'Pikachu']
+    pokemons = ['Bulbizarre', 'Dracaufeu', 'Pikachu']
 
     pokemons = [
-      'Bulbizare'
+      'Bulbizarre'
       'Dracaufeu'
       'Pikachu'
     ]
@@ -296,23 +325,27 @@ __COFFEE__
 
 # Boucles
 
+![pikachu](pikachu.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
+
+<!SLIDE bullets transition=turnUp>
 
     @@@ javascript
     var pokemon, _i, _j, _k, _len, _len1, _len2;
-
+    
     for (_i = 0, _len = pokemons.length; _i < _len; _i++) {
       pokemon = pokemons[_i];
       alert("Pokemon: " + pokemon);
     }
-
+    
     for (_j = 0, _len1 = pokemons.length; _j < _len1; _j++) {
       pokemon = pokemons[_j];
       alert("Pokemon: " + pokemon);
     }
-
+    
     for (_k = 0, _len2 = pokemons.length; _k < _len2; _k++) {
       pokemon = pokemons[_k];
       if (pokemon !== 'Pikachu') {
@@ -322,7 +355,7 @@ __JS__
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     for pokemon in pokemons
@@ -330,15 +363,18 @@ __COFFEE__
       
     alert "Pokemon: #{pokemon}" for pokemon in pokemons
 
-    alert "Pokemon: #{pokemon}" for pokemon in pokemons when pokemon isnt 'Pikachu'
+    alert "Pokemon: #{pokemon}" for pokemon in pokemons
+    when pokemon isnt 'Pikachu'
 
 <!SLIDE bullets transition=turnUp>
 
 # Objets
 
+![carapuce](carapuce.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
 
     @@@ javascript
     var pokemon;
@@ -346,33 +382,37 @@ __JS__
       name: 'Carapuce',
       strength: 12,
       water_gun: function() {
-        return alert("" + this.name + " hurt you!");
+        return alert("" + this.name + " hurted you!");
       }
     };
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     pokemon = 
       name: 'Carapuce'
       strength: 12
       water_gun: ->
-        alert "#{@name} hurt you!"
+        alert "#{@name} hurted you!"
         
     pokemon.name
     #=> Carapuce
     pokemon.water_gun
-    #=> Carapuce hurt you !'
+    #=> Carapuce hurted you!'
 
 <!SLIDE bullets transition=turnUp>
 
 # Classes
 
+![minidraco](minidraco.png)
+
 <!SLIDE bullets transition=turnUp>
 
-__JS__
+## JS
+
+<!SLIDE bullets transition=turnUp>
 
     @@@ javascript
     var Pokemon, minidraco;
@@ -393,7 +433,7 @@ __JS__
 
 <!SLIDE bullets transition=turnUp>
 
-__COFFEE__
+## Coffee
 
     @@@ javascript
     class Pokemon
@@ -410,9 +450,14 @@ __COFFEE__
 <!SLIDE bullets transition=turnUp>
 
 # Ressources
-* [coffeescript.org](http://coffeescript.org/)
+* Site officiel CoffeeScript
+* [coffeescript.org](http://coffeescript.org)
+* Code School course
+* [codeschool.com/courses/coffeescript](http://www.codeschool.com/courses/coffeescript)
 
 <!SLIDE bullets transition=turnUp>
 
 # Merci pour votre attention
-* [@david_authier](https://twitter.com/#!/david_authier)
+* [@davidawea](https://twitter.com/#!/davidawea)
+
+![togepi](togepi.png)

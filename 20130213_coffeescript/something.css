@@ -52,6 +52,14 @@ h1 {
   font-size: 90px;
   line-height: 135px;
 }
+h2 {
+  font-family: 'bodoni_egyptian_pro_boldRg', Georgia, serif;
+  font-weight: normal;
+  padding: 0 0 45px 0;
+  margin: 0;
+  font-size: 48px;
+	line-height: 90px;
+}
 .content > ul {
 	padding: 0 0 90px 0;
 }
