@@ -1,4 +1,4 @@
 source :rubygems
 
-gem 'showoff', :git => 'git@github.com:puppetlabs/showoff.git'
+gem 'showoff', :git => 'git@github.com:schacon/showoff.git'
 gem 'redcarpet'

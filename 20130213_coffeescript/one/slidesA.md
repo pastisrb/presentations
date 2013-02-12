@@ -136,7 +136,7 @@
     catch_pokemon = (event) ->    
       event.preventDefault()
       $("#fightscreeen .pokemon")
-      .replaceWith "<img src='img/pokeball.gif' />"
+      .replaceWith '<img src="img/pokeball.gif" />'
       $(@).remove()
     
     $("#inventory .pokeball .use").click catch_pokemon
