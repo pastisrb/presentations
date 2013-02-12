@@ -89,3 +89,18 @@ code {
     font-size: 38px;
     line-height: 45px;
 }
+table {
+  padding: 0;
+  margin: 0 auto;
+	font-size: 48px;
+	line-height: 87px;
+}
+tr {
+  border-bottom: 3px solid #f9f9f9;
+}
+tr:last-child {
+  border-bottom: none;
+}
+td {
+  padding: 0 90px;
+}
