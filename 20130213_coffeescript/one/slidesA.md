@@ -122,7 +122,7 @@
     function catch_pokemon(event){
     	event.preventDefault();
     	$("#fight-screen .pokemon")
-    	.replaceWith("<img src='img/pokeball.gif' />");
+    	.replaceWith('<img src="img/pokeball.gif" />');
     	$(this).remove();
     }
 
@@ -134,11 +134,10 @@
 
     @@@ javascript
     catch_pokemon = (event) ->    
-    	event.preventDefault
-    ()
-    $("#fightscreeen .pokemon")
-    .replaceWith "<img src='img/pokeball.gif' />"
-    $(@).remove()
+      event.preventDefault()
+      $("#fightscreeen .pokemon")
+      .replaceWith "<img src='img/pokeball.gif' />"
+      $(@).remove()
     
     $("#inventory .pokeball .use").click catch_pokemon
 
@@ -217,7 +216,8 @@
 ## Coffee
 
     @@@ javascript
-    if all_the_pokemon() and have_met_chen() is on then         	you_finish_pokemon()
+    if all_the_pokemon() and have_met_chen() is on 
+    then you_finish_pokemon()
 
     start_game() if not work_to_do()
     #=> start_game() unless work_to_do()
