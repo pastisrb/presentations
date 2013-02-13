@@ -120,10 +120,10 @@
 
     @@@ javascript
     function catch_pokemon(event){
-    	event.preventDefault();
-    	$("#fight-screen .pokemon")
-    	.replaceWith('<img src="img/pokeball.gif" />');
-    	$(this).remove();
+      event.preventDefault();
+      $("#fight-screen .pokemon")
+      .replaceWith('<img src="img/pokeball.gif" />');
+      $(this).remove();
     }
 
     $("#inventory .pokeball .use").click(catch_pokemon);
@@ -420,7 +420,7 @@
     pokemon.name
     #=> Carapuce
     pokemon.water_gun
-    #=> Carapuce hurted you!'
+    #=> Carapuce hurted you!
 
 <!SLIDE bullets transition=turnUp>
 
