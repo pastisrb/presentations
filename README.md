@@ -19,3 +19,5 @@ showoff serve
 [Introduction à Compass (FR)](http://maylis-compass.herokuapp.com)
 
 [Capucine (FR)](http://david-capucine.herokuapp.com)
+
+[CoffeeScript (FR)](http://david-coffeescript.herokuapp.com)
