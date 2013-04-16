@@ -4,6 +4,13 @@
 * [pastis.rb](http://pastisrb.org)
 * La Bo[a]te, Marseille, le 17 avril 2013
 
+logo : http://hivecolor.com/img/id/43/sidekiq_502_205.png
+images pour les slides où tu veux :
+
+* http://misc.team-aaa.com/perso_Dragoonhead/images/SSF2THDR-ryu-hadoken.jpg
+* http://cf.imados.fr/1/humour/martine/photo/0987364098/1749636651/martine-martine-balayette-rotatif-img.jpg (si tu arrive à me la mettre celle-là tu es mon héroïne !)
+
+
 <!SLIDE bullets transition=turnUp>
 
 # David Authier
@@ -15,7 +22,6 @@
 ![sidekiq](sidekiq.png)
 
 * Pour gérer des processus lent
-* Des traitements backs divers
 
 <!SLIDE bullets transition=turnUp>
 
@@ -65,7 +71,6 @@
 * Les middlewares
 * Logging / Monitoring
 * Une API
-* Tâches programmées 
 
 <!SLIDE bullets transition=turnUp>
 
