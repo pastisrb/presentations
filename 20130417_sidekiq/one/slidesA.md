@@ -1,38 +1,40 @@
 <!SLIDE bullets>
  
-# Sidekiq
+![logo-sidekiq](logo-sidekiq.png)
+
 * [pastis.rb](http://pastisrb.org)
 * La Bo[a]te, Marseille, le 17 avril 2013
-
-logo : http://hivecolor.com/img/id/43/sidekiq_502_205.png
-images pour les slides où tu veux :
-
-* http://misc.team-aaa.com/perso_Dragoonhead/images/SSF2THDR-ryu-hadoken.jpg
-* http://cf.imados.fr/1/humour/martine/photo/0987364098/1749636651/martine-martine-balayette-rotatif-img.jpg (si tu arrive à me la mettre celle-là tu es mon héroïne !)
-
 
 <!SLIDE bullets transition=turnUp>
 
 # David Authier
 
+![ken](ken.gif)
+
+* Développeur Ruby
+
 <!SLIDE bullets transition=turnUp>
 
-# Quand l'utiliser
+# Quand l'utiliser ?
 
-![sidekiq](sidekiq.png)
+![ryu](ryu.gif)
 
-* Pour gérer des processus lent
+* Pour gérer des processus lents
 
 <!SLIDE bullets transition=turnUp>
 
 # Prérequis
+
+![blanka](blanka.gif)
 
 * Redis
 * Ruby ;)
 
 <!SLIDE bullets transition=turnUp>
 
-# Dans une application rails
+# Dans une application Rails
+
+![chunli](chunli.gif)
 
 <!SLIDE bullets transition=turnUp>
 
@@ -43,7 +45,7 @@ images pour les slides où tu veux :
       include Sidekiq::Worker
       
       def perform(params1, params2)
-        # do what you here
+        # do what you want here
       end
     end
 
@@ -56,7 +58,7 @@ images pour les slides où tu veux :
 
 <!SLIDE bullets transition=turnUp>
 
-## la commande
+## La commande
 
     @@@ shell
     bundle exec sidekiq
@@ -65,33 +67,43 @@ images pour les slides où tu veux :
 
 # Ce qui est cool
 
+![dhalsim](dhalsim.gif)
+
+* &nbsp;
+
 <!SLIDE bullets transition=turnUp>
 
-* différentes queues et prioritées
+* Différentes files d'attente et priorités
 * Les middlewares
-* Logging / Monitoring
+* Logging / monitoring
 * Une API
 
 <!SLIDE bullets transition=turnUp>
 
 # Bonnes pratiques
 
+![martine](martine.jpg)
+
 <!SLIDE bullets transition=turnUp>
 
-* Des workers simples et petits
-* Worker idempotent et transactionnel
+* Des petits workers simples
+* Workers idempotents et transactionnels
 
 <!SLIDE bullets transition=turnUp>
 
 # Ressources
+
 * Site officiel Sidekiq
-* [http://sidekiq.org/](http://sidekiq.org/)
+* [http://sidekiq.org](http://sidekiq.org)
 * Railscast
-* [http://railscasts.com/](http://railscasts.com/episodes/366-sidekiq?view=asciicast)
+* [http://railscasts.com/episodes/366-sidekiq?view=asciicast](http://railscasts.com/episodes/366-sidekiq?view=asciicast)
 * Autoscaler
 * [https://github.com/JustinLove/autoscaler](https://github.com/JustinLove/autoscaler)
 
 <!SLIDE bullets transition=turnUp>
 
 # Merci pour votre attention
+
+![guile](guile.gif)
+
 * [@davidawea](https://twitter.com/#!/davidawea)
