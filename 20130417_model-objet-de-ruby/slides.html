@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <title>Le modèle objet de Ruby</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="application/xhtml+xml;" />
+  <link rel="stylesheet" href="assets/prezto.css" type="text/css"
+        media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="assets/default.theme.css" type="text/css"
+        media="screen" charset="utf-8" />
+  <link href="http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="cover">
+    <h1>Le modèle objet de Ruby</h1>
+    <h2>avec des orcs et des magiciens</h2>
+  </div>
+
+  <div>
+    <h1>La base</h1>
+    <p>
+      <kbd>object</kbd>
+      <kbd>.</kbd>
+      <kbd>message</kbd>
+    </p>
+  </div>
+
+  <div>
+    <h1>Héritage simple</h1>
+    <p>
+      <kbd>object</kbd> →
+      <kbd>Class</kbd> →
+      <kbd>Superclass</kbd> →
+      <br />
+      <kbd>...</kbd> →
+      <kbd>Object</kbd> →
+      <kbd>BasicObject</kbd>
+    </p>
+  </div>
+
+  <div>
+    <h1>Héritage multiple</h1>
+    <p>
+      <kbd>object</kbd> →
+      <kbd>...</kbd> →
+      <kbd><em>Kernel</em></kbd> →
+      <kbd>Object</kbd> →
+      <kbd>BasicObject</kbd>
+    </p>
+  </div>
+
+  <div>
+    <h1>Métaclasses</h1>
+    <p>
+    <kbd>class &lt;&lt; self</kbd>
+    </p>
+  </div>
+
+  <div class="cover">
+    <h1>Questions ?</h1>
+  </div>
+</body>
+
+<script type="text/javascript" src="assets/zepto.js"></script>
+<script type="text/javascript" src="assets/prezto.js"></script>
+<script type="text/javascript" charset="utf-8">
+  /* <![CDATA[ */
+  Zepto(function($) { Prezto(window, $); });
+  /* ]]> */
+</script>
+</html>
