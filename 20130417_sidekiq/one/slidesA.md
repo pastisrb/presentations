@@ -80,17 +80,6 @@
 
 <!SLIDE bullets transition=turnUp>
 
-# Bonnes pratiques
-
-![martine](martine.jpg)
-
-<!SLIDE bullets transition=turnUp>
-
-* Des petits workers simples
-* Workers idempotents et transactionnels
-
-<!SLIDE bullets transition=turnUp>
-
 # Ressources
 
 * Site officiel Sidekiq
