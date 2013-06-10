@@ -1,6 +1,6 @@
 <!SLIDE bullets>
  
-![logo-rspec](https://d1ffx7ull4987f.cloudfront.net/images/courses/large_badge/14/testing-with-rspec-28aac9e9dc98d373f4bce659214c5b3a.png)
+![logo rspec](https://d1ffx7ull4987f.cloudfront.net/images/courses/large_badge/14/testing-with-rspec-28aac9e9dc98d373f4bce659214c5b3a.png)
 
 * [pastis.rb](http://pastisrb.org)
 * La Bo[a]te, Marseille, le 12 juin 2013
@@ -17,8 +17,8 @@
 
 # Un framework de test
 
-* Moins de ruby
-* Syntaxe plus naturel
+* Moins de Ruby
+* Syntaxe plus naturelle
 
 <!SLIDE bullets transition=turnUp>
 
@@ -167,7 +167,7 @@
 
 <!SLIDE bullets transition=turnUp>
 
-# Quelques 'let'
+# Quelques « let »
 
 <!SLIDE bullets transition=turnUp>
 
@@ -235,7 +235,7 @@
 
 <!SLIDE bullets transition=turnUp>
 
-## spec/shared_undead_spec.rb
+## spec/shared\_undead_spec.rb
 
     @@@ ruby
     shared_examples_for 'the undead' do
@@ -248,9 +248,9 @@
 
 # Ressources
 
-* Site officiel Rspec
+* Site officiel RSpec
 * [http://rspec.info](http://rspec.info)
-* CodeSchool - Testing with Rspec
+* Code School - Testing with RSpec
 * [http://www.codeschool.com/courses/testing-with-rspec](http://www.codeschool.com/courses/testing-with-rspec)
 
 <!SLIDE bullets transition=turnUp>
@@ -264,5 +264,7 @@
 <!SLIDE bullets transition=turnUp>
 
 # Merci pour votre attention
+
+![catou](http://24.media.tumblr.com/tumblr_ltl9jyVxwz1qk70ddo1_250.gif)
 
 * [@davidawea](https://twitter.com/#!/davidawea)
