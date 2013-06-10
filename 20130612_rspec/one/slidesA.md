@@ -9,7 +9,7 @@
 
 # David Authier
 
-![ken](ken.gif)
+![zombies](http://25.media.tumblr.com/tumblr_mcv8fy1Z431qb340yo1_500.gif)
 
 * Développeur Ruby
 
@@ -82,12 +82,16 @@
 
 <!SLIDE bullets transition=turnUp>
 
+## spec/zombie_spec.rb
+
     @@@ ruby
     it "is hungry" do
       subject.hungry?.should == true
     end
 
 <!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
 
     @@@ ruby
     it "is hungry" do
@@ -104,12 +108,16 @@
 
 <!SLIDE bullets transition=turnUp>
 
+## spec/zombie_spec.rb
+
     @@@ ruby
     it 'starts with two weapons' do
       subject.weapons.count.should == 2
     end
 
 <!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
 
     @@@ ruby
     it 'starts with two weapons' do
@@ -122,6 +130,8 @@
 
 <!SLIDE bullets transition=turnUp>
 
+## spec/zombie_spec.rb
+
     @@@ ruby
     it 'changes the number of Zombies' do
       expect { subject.save }.to change { Zombie.count }.by(1)
@@ -133,17 +143,20 @@
 
 <!SLIDE bullets transition=turnUp>
 
-* be_within(<range>).of(<expected>)
-* exist
-* satisfy { <block> }
-* be_kind_of(<class>)
-* be_an_instance_of(<class>)
+    @@@ ruby
+    be_within(<range>).of(<expected>)
+    exist
+    satisfy { <block> }
+    be_kind_of(<class>)
+    be_an_instance_of(<class>)
 
 <!SLIDE bullets transition=turnUp>
 
 # Ajouter un contexte
 
 <!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
 
     @@@ ruby
     context 'with a veggie preference' do
@@ -157,6 +170,8 @@
 # Quelques 'let'
 
 <!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
 
     @@@ ruby
     subject { Zombie.new(weapons: [axe]) }
@@ -176,10 +191,75 @@
 
 <!SLIDE bullets transition=turnUp>
 
+# Exemples partagés
+
+<!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
+
+    @@@ ruby
+    describe Zombie do
+      it 'should not have a pulse' do
+        subject.pulse.should be_false
+      end
+    end
+
+<!SLIDE bullets transition=turnUp>
+
+## spec/vampire_spec.rb
+
+    @@@ ruby
+    describe Vampire do
+      it 'should not have a pulse' do
+        subject.pulse.should be_false
+      end
+    end
+
+<!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
+
+    @@@ ruby
+    describe Zombie do
+      it_behaves_like 'the undead'
+    end
+
+<!SLIDE bullets transition=turnUp>
+
+## spec/zombie_spec.rb
+
+    @@@ ruby
+    describe Vampire do
+      it_behaves_like 'the undead'
+    end
+
+<!SLIDE bullets transition=turnUp>
+
+## spec/shared_undead_spec.rb
+
+    @@@ ruby
+    shared_examples_for 'the undead' do
+      it 'does not have a pulse' do
+        subject.pulse.should be_false
+      end
+    end
+
+<!SLIDE bullets transition=turnUp>
+
 # Ressources
 
 * Site officiel Rspec
 * [http://rspec.info](http://rspec.info)
+* CodeSchool - Testing with Rspec
+* [http://www.codeschool.com/courses/testing-with-rspec](http://www.codeschool.com/courses/testing-with-rspec)
+
+<!SLIDE bullets transition=turnUp>
+
+# Quelques livres
+
+* Growing Object-Oriented Software Guided by Tests
+* The Clean Coder: A Code of Conduct for Professional Programmers
+* xUnit Test Patterns: Refactoring Test Code
 
 <!SLIDE bullets transition=turnUp>
 
