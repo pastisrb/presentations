@@ -19,3 +19,5 @@ showoff serve
 [Capucine (FR)](http://david-capucine.herokuapp.com)
 
 [CoffeeScript (FR)](http://david-coffeescript.herokuapp.com)
+
+[Rspec (FR)](http://david-rspec.herokuapp.com)
