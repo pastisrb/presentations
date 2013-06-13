@@ -1,6 +1,6 @@
 <!SLIDE bullets>
  
-![logo rspec](https://d1ffx7ull4987f.cloudfront.net/images/courses/large_badge/14/testing-with-rspec-28aac9e9dc98d373f4bce659214c5b3a.png)
+![logo rspec](rspec-badge.png)
 
 * [pastis.rb](http://pastisrb.org)
 * La Bo[a]te, Marseille, le 12 juin 2013
@@ -9,7 +9,7 @@
 
 # David Authier
 
-![zombies](http://25.media.tumblr.com/tumblr_mcv8fy1Z431qb340yo1_500.gif)
+![zombies](zombies.gif)
 
 * Développeur Ruby
 
@@ -265,6 +265,6 @@
 
 # Merci pour votre attention
 
-![catou](http://24.media.tumblr.com/tumblr_ltl9jyVxwz1qk70ddo1_250.gif)
+![catou](marou.gif)
 
 * [@davidawea](https://twitter.com/#!/davidawea)
