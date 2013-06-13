@@ -20,4 +20,6 @@ showoff serve
 
 [CoffeeScript (FR)](http://david-coffeescript.herokuapp.com)
 
+[Sidekiq (FR)](http://david-sidekiq.herokuapp.com/)
+
 [Rspec (FR)](http://david-rspec.herokuapp.com)
