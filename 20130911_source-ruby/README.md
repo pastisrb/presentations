@@ -28,6 +28,25 @@ On y trouve plusieurs emplacements clés :
 * `lib/ruby/2.0.0/` : la Standard Library
 * `lib/ruby/gems/2.0.0` : les gems installées a posteriori
 
+## Consulter le code source
+
+### Core
+
+Le code source du cœur de Ruby est facilement accessible
+
+* sur le miroir Git hébergé par GitHub : `git clone git://github.com/ruby/ruby.git`
+* via le dépôt SVN officiel : `svn co http://svn.ruby-lang.org/repos/ruby/trunk/ ruby`
+
+### StdLib et gems
+
+Le code source de la StdLib est accessible directement dans le dossier d'installation.
+
+Pour éviter d'avoir à chercher dans cette arborescence compliqué, il existe une gem appelée [qwandry](https://github.com/adamsanderson/qwandry) qui permet d'ouvrir le code source d'une bibliothèque ou d'une gem dans votre éditeur de texte préféré (configurable via une variable d'environnement `QWANDRY_EDITOR`, `VISUAL` ou enfin `EDITOR`).
+
+On peut donc ouvrir le code de la bibliothèque `CSV` avec la commande `qw csv`. Idem pour une gem installée : `qw activerecord-4.0.0`
+
+Lorsque `Bundler` est installé et utilisé pour géré un projet (dans une application Rails par exemple) il est alors possible d'ouvrir le code d'une des gems pour l'exacte version utilisée dans ce projet. Il suffit d'exécuter `bundle open activerecord`.
+
 ## Consulter la documentation
 
 ### En ligne
@@ -48,21 +67,18 @@ Il est possible de générer une documentation texte brut ou HTML sur son poste,
 
 Le plus simple est probablement de télécharger des archives toutes faites pour ce qui vous intéresse : http://ruby-doc.org/downloads/ Il suffit de placer ces fichiers dans une zone accessible via un serveur web (pour que votre navigateur ne limite pas l'exécution du Javascript).
 
-## Consulter le code source
+### Ressources utiles
 
-### Core
+La documentation contient surtout ce qui concerne les classes et modules du langage et de la bibliothèque standard. Elle contient également des ressources très utiles pour nous aider à manipuler le langage au quotidien.
 
-Le code source du cœur de Ruby est facilement accessible
+[Les globales](http://ruby-doc.org/core-2.0.0/doc/globals_rdoc.html) : quelles sont les variables globales déclarées par défaut par l'interpéteur, et que contiennent-elles ?
 
-* sur le miroir Git hébergé par GitHub : `git clone git://github.com/ruby/ruby.git`
-* via le dépôt SVN officiel : `svn co http://svn.ruby-lang.org/repos/ruby/trunk/ ruby`
+On y trouve par exemple le message de la dernière exception levée (`$!`), la sortie standard (`$stdout`), le numéro du process ruby encours (`$$`), …
+Ces derières ont presque toutes une version "humaine" fournie par `English`.
 
-### StdLib et gems
+[Les exceptions](http://ruby-doc.org/core-2.0.0/doc/syntax/exceptions_rdoc.html) : les différentes manières de gérer les exceptions, avec `rescue`, l'utilité de `ensure` …
 
-Le code source de la StdLib est accessible directement dans le dossier d'installation.
+[des considérations de sécurité](http://ruby-doc.org/core-2.0.0/doc/security_rdoc.html) pour éviter de se tirer une balle dans le pied.
 
-Pour éviter d'avoir à chercher dans cette arborescence compliqué, il existe une gem appelée [qwandry](https://github.com/adamsanderson/qwandry) qui permet d'ouvrir le code source d'une bibliothèque ou d'une gem dans votre éditeur de texte préféré (configurable via une variable d'environnement `QWANDRY_EDITOR`, `VISUAL` ou enfin `EDITOR`).
 
-On peut donc ouvrir le code de la bibliothèque `CSV` avec la commande `qw csv`. Idem pour une gem installée : `qw activerecord-4.0.0`
-
-Lorsque `Bundler` est installé et utilisé pour géré un projet (dans une application Rails par exemple) il est alors possible d'ouvrir le code d'une des gems pour l'exacte version utilisée dans ce projet. Il suffit d'exécuter `bundle open activerecord`.
+Il y a également une ressource très intéressante, hors du site officiel : une [longue page de référence](http://www.zenspider.com/Languages/Ruby/QuickRef.html), éditée par [Ryan Davis](https://twitter.com/the_zenspider), qui contient énormément d'infos très utiles et/ou difficiles à trouevr dans la documentation officielle.
