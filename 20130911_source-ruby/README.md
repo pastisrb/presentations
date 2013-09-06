@@ -67,6 +67,8 @@ Il est possible de générer une documentation texte brut ou HTML sur son poste,
 
 Le plus simple est probablement de télécharger des archives toutes faites pour ce qui vous intéresse : http://ruby-doc.org/downloads/ Il suffit de placer ces fichiers dans une zone accessible via un serveur web (pour que votre navigateur ne limite pas l'exécution du Javascript).
 
+Il existe une alternative pour les utilisateurs de la pomme,  [Dash](http://kapeli.com/dash), une application pour récuperer toutes les documentations que vous souhaitez.
+
 ### Ressources utiles
 
 La documentation contient surtout ce qui concerne les classes et modules du langage et de la bibliothèque standard. Elle contient également des ressources très utiles pour nous aider à manipuler le langage au quotidien.
@@ -74,11 +76,11 @@ La documentation contient surtout ce qui concerne les classes et modules du lang
 [Les globales](http://ruby-doc.org/core-2.0.0/doc/globals_rdoc.html) : quelles sont les variables globales déclarées par défaut par l'interpéteur, et que contiennent-elles ?
 
 On y trouve par exemple le message de la dernière exception levée (`$!`), la sortie standard (`$stdout`), le numéro du process ruby encours (`$$`), …
-Ces derières ont presque toutes une version "humaine" fournie par `English`.
+Ces derières ont presque toutes une version "humaine" fournie par le module [English](http://www.ruby-doc.org/stdlib-2.0/libdoc/English/rdoc/English.html).
 
 [Les exceptions](http://ruby-doc.org/core-2.0.0/doc/syntax/exceptions_rdoc.html) : les différentes manières de gérer les exceptions, avec `rescue`, l'utilité de `ensure` …
 
 [des considérations de sécurité](http://ruby-doc.org/core-2.0.0/doc/security_rdoc.html) pour éviter de se tirer une balle dans le pied.
 
 
-Il y a également une ressource très intéressante, hors du site officiel : une [longue page de référence](http://www.zenspider.com/Languages/Ruby/QuickRef.html), éditée par [Ryan Davis](https://twitter.com/the_zenspider), qui contient énormément d'infos très utiles et/ou difficiles à trouevr dans la documentation officielle.
+Il y a également une ressource très intéressante, hors du site officiel : une [longue page de référence](http://www.zenspider.com/Languages/Ruby/QuickRef.html), éditée par [Ryan Davis](https://twitter.com/the_zenspider), qui contient énormément d'infos très utiles et/ou difficiles à trouver dans la documentation officielle.
