@@ -84,3 +84,7 @@ Ces derières ont presque toutes une version "humaine" fournie par le module [En
 
 
 Il y a également une ressource très intéressante, hors du site officiel : une [longue page de référence](http://www.zenspider.com/Languages/Ruby/QuickRef.html), éditée par [Ryan Davis](https://twitter.com/the_zenspider), qui contient énormément d'infos très utiles et/ou difficiles à trouver dans la documentation officielle.
+
+# Exercices
+
+Explorez les bibliothèques, par exemple : Delegate, CSV, Base64, CMath, Debug, Pathname, GetoptLong, OpenURI, PStore, SecureRandom, TempFile
