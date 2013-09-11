@@ -85,7 +85,6 @@
 
 * [qwandry](https://github.com/adamsanderson/qwandry)
 * Pour ouvrir le code source d'une bibliothèque ou d'une gem
-
 * [bundler](http://bundler.io/)
 * Pour ouvrir les gems de votre projet
 
