@@ -24,7 +24,7 @@ showoff serve
 
 [Rspec (FR)](http://david-rspec.herokuapp.com)
 
-Nicolas2
+TOTO
 
 [Le code source de ruby (FR)](http://source-ruby.herokuapp.com/)
 
