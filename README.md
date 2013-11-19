@@ -24,7 +24,7 @@ showoff serve
 
 [Rspec (FR)](http://david-rspec.herokuapp.com)
 
-Nicolas
+Nicolas2
 
 [Le code source de ruby (FR)](http://source-ruby.herokuapp.com/)
 
